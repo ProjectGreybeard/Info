@@ -1,3 +1,20 @@
+## 14 Feb 2023 - 18:17 - rbrown
+
+Realised that, given we don't plan on making YaST installation media we probably dont need all the 000* stuff..removed all mention of it from previous journal entries to keep this readable
+
+Created a greybeard-release package in OBS WebUI
+ * https://build.opensuse.org/package/new/home:RBrownSUSE:Greybeard
+ * Checked it out on my machine - `osc co home:RBrownSUSE:Greybeard:greybeard-release`
+ * `cd home:RBrownSUSE:Greybeard/greybeard-release`
+ * Created greybeard-release.spec using https://build.opensuse.org/package/view_file/home:RBrownSUSE:microos-desktop/000package-groups/MicroOS-release.spec.in?expand=1 for inspiration, but removing anything which I suspect in YaST/SUSE Product specific
+ * Package is doing the bare minimum, providing the 'Provides' that should everything should need, setting the welcome on the terminal, defining the os-release, and of course putting the distros LICENSE in full on the system
+ * https://build.opensuse.org/package/view_file/home:RBrownSUSE:Greybeard/greybeard-release/greybeard-release.spec
+
+so the -release package is made..next steps are now
+ * creating a branding-greybeard package
+ * creating a patterns-greybeard package to be where most of the magic will happen
+ * creating our first greybeard image, most likely based on the "SelfInstall" image from [openSUSE-MicroOS](https://build.opensuse.org/package/view_file/openSUSE:Factory/openSUSE-MicroOS/openSUSE-MicroOS.kiwi?expand=1) - I want to avoid YaST and the associated skelcd-\*, installation-images work, especially as that would require forking installation-images to support this not-openSUSE distro we're building
+
 ## 14 Feb 2023 - 14:55 - rbrown
 
 Created initial OBS Project [home:RBrownSUSE:Greybeard](https://build.opensuse.org/project/show/home:RBrownSUSE:Greybeard)
@@ -13,8 +30,8 @@ Configured [Project Config](https://build.opensuse.org/projects/home:RBrownSUSE:
  * *images* repo needs to be defined as a kiwi repo, to build kiwi images
 
 Next steps
- * bootstrapping a basic product definition, akin to 000product, 000release-packages and 000package-groups in openSUSE:Factory
- * configuring/running [pkglistgen](http://osrt.opensuse.org/docs/pkglistgen.html) against 000package-groups once it's made. This is especially important as we're based on Tumbleweed/MicroOS so the package lists will change outside of our control. pkglistgen expected to run from a container on my server at home for now, easier from a secrets/security aspect
+ * creating a greybeard-release package
+ * creating a branding-greybeard package
  * creating a patterns-greybeard package to be where most of the magic will happen
  * creating our first greybeard image, most likely based on the "SelfInstall" image from [openSUSE-MicroOS](https://build.opensuse.org/package/view_file/openSUSE:Factory/openSUSE-MicroOS/openSUSE-MicroOS.kiwi?expand=1) - I want to avoid YaST and the associated skelcd-\*, installation-images work, especially as that would require forking installation-images to support this not-openSUSE distro we're building
 
