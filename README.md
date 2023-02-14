@@ -36,7 +36,7 @@ Unlike MicroOS Desktop, Greybeard users are expected to be somewhat technical, s
 
 # What additional goals does Project Greybeard have?
 
-As an experimental effort, Greybeard also hopes to stand as a reproducible example as how to build custom dirivatives of openSUSE MicroOS or MicroOS Desktop. Therefore all the steps taken to build Greybeard will be recorded in our [journal](https://github.com/ProjectGreybeard/Info/blob/main/journal.md) for others to follow along and copy/adapt for their own use.
+As an experimental effort, Greybeard also hopes to stand as a reproducible example as how to build custom derivatives of openSUSE MicroOS or MicroOS Desktop. Therefore all the steps taken to build Greybeard will be recorded in our [journal](https://github.com/ProjectGreybeard/Info/blob/main/journal.md) for others to follow along and copy/adapt for their own use.
 
 Once we've built working images/installers for the very developer-centric window-manager use case, we may also experiment on a varient of Greybeard for more 'kiosk' like use, loading up an immutable base and running a single graphical application automatically.
 
