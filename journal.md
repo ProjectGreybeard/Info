@@ -8,6 +8,8 @@ Created a greybeard-release package in OBS WebUI
  * `cd home:RBrownSUSE:Greybeard/greybeard-release`
  * Created greybeard-release.spec using https://build.opensuse.org/package/view_file/home:RBrownSUSE:microos-desktop/000package-groups/MicroOS-release.spec.in?expand=1 for inspiration, but removing anything which I suspect in YaST/SUSE Product specific
  * Package is doing the bare minimum, providing the 'Provides' that should everything should need, setting the welcome on the terminal, defining the os-release, and of course putting the distros LICENSE in full on the system
+ * Checked it in `osc ci`
+ * Watched the build and made a few minor tweaks till it worked
  * https://build.opensuse.org/package/view_file/home:RBrownSUSE:Greybeard/greybeard-release/greybeard-release.spec
 
 so the -release package is made..next steps are now
