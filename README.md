@@ -6,11 +6,11 @@ The Project's headline goal is to provide an immutable, automatically updating, 
 
 If MicroOS is the perfect OS for servers, and MicroOS Desktop is the perfect OS for non-technical/lazy developer users, then Greybeard should appeal those who want all the benefits of an immutable base OS, but still a fully customisable, if incredibly geeky, window-manager environment
 
-# Which window manager will Project Greybeard use?
+## Which window manager will Project Greybeard use?
 
 The goal is to provide a clean but customised [Sway](https://swaywm.org/) environment. It will be more customised than vanilla upstream Sway, but also provide less out of the box than [openSUSEway](https://en.opensuse.org/Portal:OpenSUSEway) which, in our opinion, goes further than we'd like to for Greybeard.
 
-# Will Greybeard require Flatpaks for graphical applications?
+## Will Greybeard require Flatpaks for graphical applications?
 
 Like MicroOS Desktop, flatpaks will be the recommended way of installing additional graphical applications on Greybeard, with [flathub](https://flathub.org) configured out of the box.
 
@@ -18,7 +18,7 @@ Also like MicroOS Desktop, the recommended way of installing non-flatpak graphic
 
 However, unlike the MicroOS Desktop where customising the base OS is discoraged, Greybeard recognises that users of window managers like Sway need to be able to add additional tooling into the base OS to customise their sway environment. This will be supported, hopefully with tooling to help track deviations from the baseline Greybeard installation.
 
-# Will Greybeard require reboots to install packages/system updates?
+## Will Greybeard require reboots to install packages/system updates?
 
 Applications installed via flatpaks or distrobox will not require the system to reboot before they can be used, and should immediately show in Sways application launcher.
 
@@ -26,7 +26,7 @@ Any packages (such as additional window-manager components) will need to be inst
 
 System Updates will be entirely automated, with transactional-update automatically running in the background, notifying in your graphical environment when there is an update ready to apply with a reboot. Just like MicroOS Desktop there will be no scheduled reboots configured out of the box.
 
-# How 'minimal' will Project Greybeard installations be?
+## How 'minimal' will Project Greybeard installations be?
 
 Like MicroOS Desktop, Greybeard aims to be 'small' while still 'usable' out of the box. Greybeard should be able to do everything the MicroOS Desktop can, but maybe not as easily.
 
@@ -34,17 +34,17 @@ Like all MicroOS varients, Greybeard will not install OS packages using zyppers 
 
 Unlike MicroOS Desktop, Greybeard users are expected to be somewhat technical, so some 'nice to have but not necessary' features may be intentionally avoided to keep the system as trim as possible. For example Greybeard is not expected to use a graphical login manager, with users expecting to login via a regular plain text TTY and Sway starting (automatically?) once they've logged in. 
 
-# What additional goals does Project Greybeard have?
+## What additional goals does Project Greybeard have?
 
 As an experimental effort, Greybeard also hopes to stand as a reproducible example as how to build custom derivatives of openSUSE MicroOS or MicroOS Desktop. Therefore all the steps taken to build Greybeard will be recorded in our [journal](https://github.com/ProjectGreybeard/Info/blob/main/journal.md) for others to follow along and copy/adapt for their own use.
 
 Once we've built working images/installers for the very developer-centric window-manager use case, we may also experiment on a varient of Greybeard for more 'kiosk' like use, loading up an immutable base and running a single graphical application automatically.
 
-# Is Project Greybeard an openSUSE Project?
+## Is Project Greybeard an openSUSE Project?
 
 No, at this time this project is entirely seperate and unassociated with openSUSE, openSUSE MicroOS and other openSUSE Projects. This may change if these experiments prove popular.
 
-# Who can contribute to Project Greybeard?
+## Who can contribute to Project Greybeard?
 
 Anyone, as long as you agree with the general premise of the Project as described above.
 
