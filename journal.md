@@ -1,3 +1,32 @@
+## 15 Feb 2023 - rbrown
+
+Created branding-greybeard in OBS WebUI
+ * https://build.opensuse.org/package/new/home:RBrownSUSE:Greybeard
+ * Checked it out on my machine - `osc co home:RBrownSUSE:Greybeard:branding-greybeard`
+ * `cd home:RBrownSUSE:Greybeard/branding-greybeard`
+ * Created .spec using https://build.opensuse.org/package/view_file/Base:System/branding-openSUSE/branding-openSUSE.spec?expand=1 as inspiration, but dramatically smaller as we have far less to worry about
+ * Threw together a quick wallpaper in GIMP
+ * `osc add` everything so far and checked in, it builds, though at this point it's useless - that's fine, will add to it as the pattern comes together and it becomes obvious what needs 'branding'
+
+Created patterns-greybeard in OBS WebUI
+ * https://build.opensuse.org/package/new/home:RBrownSUSE:Greybeard
+ * Checked it out on my machine - `osc co home:RBrownSUSE:Greybeard:patterns-greybeard`
+ * `cd home:RBrownSUSE:Greybeard/patterns-greybeard`
+ * Created .spec using https://build.opensuse.org/package/view_file/devel:microos/patterns-microos/patterns-microos.spec?expand=1 as inspiration, but dramatically smaller as we have far less to worry about
+ * `osc add` everything so far and checked in, it builds, though at this point it's useless - that's fine, will add to i
+t as the pattern comes together
+
+Created greybeard in OBS WebUI
+ * https://build.opensuse.org/package/new/home:RBrownSUSE:Greybeard
+ * Checked it out on my machine - `osc co home:RBrownSUSE:Greybeard:greybeard`
+ * `cd home:RBrownSUSE:Greybeard/greybeard`
+ * Created .kiwi using https://build.opensuse.org/package/view_file/devel:microos:images/openSUSE-MicroOS/openSUSE-MicroOS.kiwi?expand=1 as inspiration, but dramatically smaller as we have far less to worry about
+ * `osc add` everything so far and checked in, it builds, though at this point it's useless beyond basic boot testing
+
+Next Steps
+ * Test the image and fix the obvious issues that are bound to be found
+ * Add contents to the pattern to start actually making it a graphical desktop system
+
 ## 14 Feb 2023 - 18:17 - rbrown
 
 Realised that, given we don't plan on making YaST installation media we probably dont need all the 000* stuff..removed all mention of it from previous journal entries to keep this readable
