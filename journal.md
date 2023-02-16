@@ -1,3 +1,15 @@
+## 16 Feb 2023 - rbrown
+
+Testing first image (Basic non-GUI MicroOS rebranded as Greybeard). Mostly perfect, but still installs grub2-branding-openSUSE and doesn't include the gpg key for the greybeard repo by default
+ * Addressed key with https://build.opensuse.org/package/rdiff/home:RBrownSUSE:Greybeard/greybeard?linkrev=base&rev=10
+ * Address grub2-branding with https://build.opensuse.org/package/rdiff/home:RBrownSUSE:Greybeard/branding-greybeard?linkrev=base&rev=9
+
+Created jeos-firstboot module for creating the user on firstboot
+ * https://build.opensuse.org/package/show/home:RBrownSUSE:Greybeard/jeos-firstboot-module-user
+
+Next Steps
+ * Add sway and config into skel so it works
+
 ## 15 Feb 2023 - rbrown
 
 Created branding-greybeard in OBS WebUI
@@ -22,6 +34,10 @@ Created greybeard in OBS WebUI
  * `cd home:RBrownSUSE:Greybeard/greybeard`
  * Created .kiwi using https://build.opensuse.org/package/view_file/devel:microos:images/openSUSE-MicroOS/openSUSE-MicroOS.kiwi?expand=1 as inspiration, but dramatically smaller as we have far less to worry about
  * `osc add` everything so far and checked in, it builds, though at this point it's useless beyond basic boot testing
+
+Opened first bugs
+ * https://github.com/ProjectGreybeard/bugs/issues/1 - Might not fix
+ * https://github.com/ProjectGreybeard/bugs/issues/2 - fixed with https://build.opensuse.org/package/rdiff/home:RBrownSUSE:Greybeard/greybeard-release?linkrev=base&rev=7
 
 Next Steps
  * Test the image and fix the obvious issues that are bound to be found
