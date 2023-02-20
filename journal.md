@@ -1,3 +1,15 @@
+## 20 Feb 2023 - rbrown
+
+Lots of work on https://github.com/ProjectGreybeard/branding by m4u9
+Nicely packaged using a git \_service file in OBS https://build.opensuse.org/package/view_file/home:RBrownSUSE:Greybeard/branding-greybeard/\_service?expand=1
+
+Testing the latest image and making tweaks
+* Latest bug https://github.com/ProjectGreybeard/bugs/issues/6
+
+## 17 Feb 2023 - rbrown
+
+Tested first image with sway, but pattern is obvious incomplete, added more required packages
+
 ## 16 Feb 2023 - rbrown
 
 Testing first image (Basic non-GUI MicroOS rebranded as Greybeard). Mostly perfect, but still installs grub2-branding-openSUSE and doesn't include the gpg key for the greybeard repo by default
