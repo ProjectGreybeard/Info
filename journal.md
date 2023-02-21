@@ -1,3 +1,10 @@
+## 21 Feb 2023 - rbrown
+
+Getting annoyed with testing in a VM (hardware acceleration needed for sway testing), so trying real hardware
+* Realised nmtui isn't installed but is needed by jeos-firstboot, added to patterns-greybeard
+* added distrobox + podman to patterns-greybeard
+* added distrobox to default greybeard sway config with keybinding Mod+Shift+Enter (akin to terminal being Mod+Enter)
+
 ## 20 Feb 2023 - rbrown
 
 Lots of work on https://github.com/ProjectGreybeard/branding by m4u9
