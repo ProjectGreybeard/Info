@@ -4,6 +4,10 @@ Getting annoyed with testing in a VM (hardware acceleration needed for sway test
 * Realised nmtui isn't installed but is needed by jeos-firstboot, added to patterns-greybeard
 * added distrobox + podman to patterns-greybeard
 * added distrobox to default greybeard sway config with keybinding Mod+Shift+Enter (akin to terminal being Mod+Enter)
+* added transactional-update-notifier
+
+Next steps - not much left now
+* Firstboot wizard - install flatpaks as --user by default, not system wide, find a nice way of introducing beginners to sway (keyboard shortcuts and such)
 
 ## 20 Feb 2023 - rbrown
 
