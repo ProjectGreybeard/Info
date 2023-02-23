@@ -1,3 +1,12 @@
+## 23 Feb 2023 - rebrown
+
+Merged Maurizio's port of mod-firstboot - want to improve it but it's good enough meanwhile
+Also merged Maurizio's theme for SwayNC - no improvements needed
+
+Next steps
+* Tweak firstboot
+* Tweak window theme to have less blue (Greys/monochrome with transparency to show wallpaper is tempting)
+
 ## 21 Feb 2023 - rbrown
 
 Getting annoyed with testing in a VM (hardware acceleration needed for sway testing), so trying real hardware
