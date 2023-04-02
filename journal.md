@@ -1,3 +1,59 @@
+## 30 Mar 2023 - sfalken
+
+Merged change from sfalken, to add config dropin for transactional-update
+
+## 21 Mar 2023 - sfalken
+
+Merged changes from Maurizio
+* New firstboot script setup, based in terminal, rather than zenity
+* Revisions to the sway config, moving the clock to the center of the waybar,
+  altering the calendar date formatting, and revising some of the colour and
+transparency for items in the waybar.
+
+## 10 Mar 2023 - sfalken
+
+Merged change from Maurizio to bind PrtScrn for screenshots with grim
+
+## 09 Mar 2023 - sfalken
+
+Added packages to install pattern, for better user experience
+* pulseaudio-utils
+* adwaita-icon-theme
+* gtk3-metatheme-adwaita
+* gnome-keyring
+* gnome-keyring-pam
+
+## 08 Mar 2023 - sfalken
+
+Merged changes from sfalken
+* Change size of sway-launcher-desktop window
+* Enable Adwaita cursor theme
+
+Merged changes from Maurizio
+* Enable dark mode for GTK4 themeing
+* Add config/mimeapps.list for file associations
+
+Next Steps
+* Continue refining the mime associations setup
+* Enable easy screenshotting
+
+## 06 Mar 2023 - sfalken
+
+Merged changes from sfalken to set foot as the default terminal, and use
+sway-launcher-desktop
+
+Next steps
+* Sort out mime associations, for things like autolaunching URLS in the browser
+* GTK4 Themeing for a consistent application presentation
+
+## 27 Feb 2024 - sfalken
+
+Config additions, to autostart sway, and autolaunch the firstboot script, to
+set flatpak repos, and install Firefox, set default window colors.
+
+Next steps
+* Continue revising the user experience within sway
+
 ## 23 Feb 2023 - rebrown
 
 Merged Maurizio's port of mod-firstboot - want to improve it but it's good enough meanwhile
