@@ -16,7 +16,7 @@ Merged change from Maurizio to bind PrtScrn for screenshots with grim
 
 ## 09 Mar 2023 - sfalken
 
-Added packages to install pattern, for better user experience
+Added packages to install pattern, for better user experience, see https://build.opensuse.org/request/show/1070289
 * pulseaudio-utils
 * adwaita-icon-theme
 * gtk3-metatheme-adwaita
