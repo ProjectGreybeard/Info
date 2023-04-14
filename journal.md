@@ -1,3 +1,9 @@
+## 14 Apr 2023 - sfalken
+
+Add packages to default install
+* clipman (clipboard management within sway)
+* remove swaynag, not necessary, blame Maurizio
+
 ## 06 Apr 2023 - sfalken
 
 Add packages to default install for better UX
