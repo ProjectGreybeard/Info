@@ -1,3 +1,16 @@
+## 14 Apr 2023 - sfalken
+
+Add packages to default install
+* clipman (clipboard management within sway)
+* remove swaynag, not necessary, blame Maurizio
+
+## 06 Apr 2023 - sfalken
+
+Add packages to default install for better UX
+* blueman (managing bluetooth devices/connections)
+* swaynag
+* bash-completion
+
 ## 30 Mar 2023 - sfalken
 
 Merged change from sfalken, to add config dropin for transactional-update
