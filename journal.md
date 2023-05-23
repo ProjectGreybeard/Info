@@ -1,3 +1,8 @@
+## 22 May 2023 - sfalken
+
+Add package to default install
+* polkit-default-privs (removes requirement for entering root password for rfkill on every boot)
+
 ## 14 Apr 2023 - sfalken
 
 Add packages to default install
