@@ -51,3 +51,6 @@ Anyone, as long as you agree with the general premise of the Project as describe
 This is an intentionally opinionated project and we do not wish to waste our time with endless debates adjusting the scope of what we set out to do. We do not wish to dramatically increase the scope of this Project just to draw in more contributors.
 
 That said, we recognise we don't know everything, so if you have opinions as to how you think we can best fufill our goals, please follow along our [journal](https://github.com/ProjectGreybeard/Info/blob/main/journal.md) and start contributing!
+
+## How to download Greybeard .iso images?
+Install images can currently be downloaded from [this repository](https://download.opensuse.org/repositories/home:/RBrownSUSE:/Greybeard/images/)
